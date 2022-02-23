@@ -7,7 +7,7 @@
 <h1>{{ news.title }}</h1>
 <pre>{{ news.description }}</pre>
     {% if news.tag %}
-    <p>Тег: <a href="{% url 'last_news' %}?tag={{ news.tag }}">{{ news.tag }}</a></p>
+    <p>{% trans "Tag" %}: <a href="{% url 'last_news' %}?tag={{ news.tag }}">{{ news.tag }}</a></p>
     {% endif %}
     <p>{% trans "Published" %}: <a href="{% url 'last_news' %}?date={{ news.published_at|date:'Y-m-d' }}">
         {{ news.published_at }}</a>, {% trans "author" %}: {% if news.author %}

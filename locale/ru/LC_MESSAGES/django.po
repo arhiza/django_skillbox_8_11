@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-09 22:29+0000\n"
+"POT-Creation-Date: 2022-02-23 12:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,8 @@ msgstr ""
 msgid "news"
 msgstr "новость"
 
-#: app_news/forms.py:8 templates/app_news/news_list.html:27
+#: app_news/forms.py:8 templates/app_news/news_detail.html:10
+#: templates/app_news/news_list.html:27
 msgid "Tag"
 msgstr "Тег"
 
